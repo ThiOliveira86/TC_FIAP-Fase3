@@ -92,7 +92,8 @@ TC_FIAP-Fase3/
 ├── docs/
 │   └── TECHNICAL_DOCUMENTATION.md               # Documentação técnica detalhada
 └── reports/
-    └── diagrama_arquitetura.jpeg                # Diagrama da arquitetura AWS
+    ├── diagrama_arquitetura.jpeg                # Diagrama da arquitetura AWS
+    └── graficos/                                # Gráficos do Relatório Executivo (PNG)
 ```
 
 ## 🚀 Como executar
@@ -190,7 +191,85 @@ aws configure
 - Análise estratégica completa
 - Recomendações para empresas
 - Visualizações executivas
-- 31 páginas, entregue à FIAP (não publicado aqui por conter dados pessoais dos integrantes)
+- 31 páginas, entregue à FIAP. O PDF não foi publicado aqui por conter dados pessoais dos integrantes, mas os gráficos estão em `reports/graficos/` e na seção [Análises e Gráficos](#-análises-e-gráficos)
+
+## 📈 Análises e Gráficos
+
+Os gráficos abaixo foram gerados a partir da camada Gold e fazem parte do Relatório Executivo (DataViz e Storytelling). Clique em cada tema para expandir.
+
+![Perfis mais valorizados](reports/graficos/10-perfis-mais-valorizados.png)
+
+<details>
+<summary><b>Estrutura do mercado</b></summary>
+
+![06-estrutura-mercado-maturidade](reports/graficos/06-estrutura-mercado-maturidade.png)
+
+![07-estrutura-mercado-funcoes](reports/graficos/07-estrutura-mercado-funcoes.png)
+
+![08-distribuicao-por-setor](reports/graficos/08-distribuicao-por-setor.png)
+
+![09-modelo-de-contratacao](reports/graficos/09-modelo-de-contratacao.png)
+
+</details>
+
+<details>
+<summary><b>Remuneração e senioridade</b></summary>
+
+![11-remuneracao-por-senioridade](reports/graficos/11-remuneracao-por-senioridade.png)
+
+![12-faixa-salarial-senioridade](reports/graficos/12-faixa-salarial-senioridade.png)
+
+</details>
+
+<details>
+<summary><b>Diversidade de gênero</b></summary>
+
+![13-diversidade-genero-cenario](reports/graficos/13-diversidade-genero-cenario.png)
+
+![14-diversidade-genero-cargos](reports/graficos/14-diversidade-genero-cargos.png)
+
+![15-diversidade-genero-senioridade](reports/graficos/15-diversidade-genero-senioridade.png)
+
+</details>
+
+<details>
+<summary><b>Tecnologias</b></summary>
+
+![16-tecnologias-linguagens](reports/graficos/16-tecnologias-linguagens.png)
+
+![17-tecnologias-cloud](reports/graficos/17-tecnologias-cloud.png)
+
+![18-tecnologias-bi-banco-de-dados-1](reports/graficos/18-tecnologias-bi-banco-de-dados-1.png)
+
+![19-tecnologias-bi-banco-de-dados-2](reports/graficos/19-tecnologias-bi-banco-de-dados-2.png)
+
+</details>
+
+<details>
+<summary><b>Inteligência Artificial</b></summary>
+
+![20-ia-agenda-estrategica-1](reports/graficos/20-ia-agenda-estrategica-1.png)
+
+![21-ia-agenda-estrategica-2](reports/graficos/21-ia-agenda-estrategica-2.png)
+
+![22-ia-maturidade-por-setor](reports/graficos/22-ia-maturidade-por-setor.png)
+
+![23-ia-profissionais](reports/graficos/23-ia-profissionais.png)
+
+![24-ia-desafios](reports/graficos/24-ia-desafios.png)
+
+</details>
+
+<details>
+<summary><b>Assimetrias: região, senioridade e modelo de trabalho</b></summary>
+
+![25-assimetrias-regiao-salarios](reports/graficos/25-assimetrias-regiao-salarios.png)
+
+![26-assimetrias-senioridade](reports/graficos/26-assimetrias-senioridade.png)
+
+![27-assimetrias-modelo-de-trabalho](reports/graficos/27-assimetrias-modelo-de-trabalho.png)
+
+</details>
 
 ## 🔑 Decisões Técnicas Importantes
 
@@ -277,6 +356,7 @@ jupyter notebook Gold/TechChallenge_Notebook_Unificado_v4.ipynb
 
 - [Diagrama da arquitetura](reports/diagrama_arquitetura.jpeg)
 - [Documentação técnica detalhada](docs/TECHNICAL_DOCUMENTATION.md)
+- [Gráficos do Relatório Executivo](reports/graficos/)
 
 ---
 
